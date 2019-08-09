@@ -233,3 +233,22 @@ ul.main-menu {
 .box:nth-child(10){
     background-color: dodgerblue;
 }
+
+
+/* About Page */
+.about-page {
+    background: #ddd;
+}
+
+.about-jumbo-img {
+    margin-bottom: 1em;
+}
+
+.jumbo-content {
+    padding: 1em;
+}
+
+.about-jumbo {
+    border-bottom: 1px dashed black;
+    margin-bottom: 1.5em;
+}
