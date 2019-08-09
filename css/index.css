@@ -287,3 +287,7 @@ ul.main-menu {
     margin-bottom: 2em;
     padding: 1em;
 }
+
+.about-content > div + div {
+    margin-left: 1em;
+}
