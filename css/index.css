@@ -236,8 +236,9 @@ ul.main-menu {
 
 
 /* About Page */
-.about-page {
-    background: #ddd;
+
+.dashed-border {
+    border-bottom: 1px dashed black;
 }
 
 .about-jumbo-img {
@@ -251,4 +252,37 @@ ul.main-menu {
 .about-jumbo {
     border-bottom: 1px dashed black;
     margin-bottom: 1.5em;
+}
+
+
+.about-btn {
+  border: 2px solid black;
+  background: none;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+
+}
+
+.about-content {
+    display: flex;
+    padding: 1em;
+}
+
+.about-content div h3 {
+    margin-top: 1em;
+}
+
+.about-work {
+    margin-bottom: 2em;
 }
