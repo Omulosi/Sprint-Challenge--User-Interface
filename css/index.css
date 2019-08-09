@@ -291,3 +291,60 @@ ul.main-menu {
 .about-content > div + div {
     margin-left: 1em;
 }
+
+/* Mobile styles */
+
+@media screen and (max-device-width: 800px) {
+
+    html {
+        padding: 0;
+    }
+
+    /* About Page */
+
+    .about-content {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .about-jumbo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-jumbo > div {
+        flex: 1;
+    }
+
+    .jumbo-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jumbo-content > * {
+        flex: 1;
+    }
+
+    .about-work > h3 {
+      margin-bottom: 1.5em;
+    }
+
+    .about-main-content {
+      align-items: center;
+    }
+
+    .about-page {
+      text-align: center;
+    }
+
+    .about-content > div {
+      padding-bottom: 3em;
+      padding-top: 3em;
+    }
+
+    /* Home Page */
+
+
+}
