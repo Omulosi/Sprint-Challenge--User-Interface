@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -148,3 +147,89 @@ footer nav a {
 /* Custom Styles */
 
 /* Header Styles */
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    margin-bottom: 2em;
+}
+
+.logo {
+    text-align: left;
+    flex: 0 0 150px;
+    padding-top: 0.5em;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    flex: 1 1 0;
+    padding: 3em;
+}
+
+ul.main-menu {
+    display: inline-flex;
+}
+
+.main-menu li {
+    padding-right: 5.4em;
+    padding-top: 1.8em;
+}
+
+.main-menu li a {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero {
+    margin-bottom: 1.3em;
+}
+
+.box:nth-child(1){
+    background-color: teal;
+}
+
+.box:nth-child(2){
+    background-color: gold;
+}
+
+.box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.box:nth-child(4){
+    background-color: coral;
+}
+
+.box:nth-child(5){
+    background-color: crimson;
+}
+
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.box:nth-child(8){
+    background-color: hotpink;
+}
+
+.box:nth-child(9){
+    background-color: indigo;
+}
+
+.box:nth-child(10){
+    background-color: dodgerblue;
+}
